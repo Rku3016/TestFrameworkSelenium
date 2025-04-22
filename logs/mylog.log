@@ -1,0 +1,73 @@
+[INFO ] 2025-04-15 22:31:43.243 [main] TestAutomationFramework - url opened
+[INFO ] 2025-04-15 22:31:43.281 [main] TestAutomationFramework - ***************TestCase Verify Registration and Login starts*****************
+[INFO ] 2025-04-15 22:33:05.849 [main] TestAutomationFramework - url opened
+[INFO ] 2025-04-15 22:33:05.898 [main] TestAutomationFramework - ***************TestCase Verify Registration and Login starts*****************
+[INFO ] 2025-04-15 22:34:30.389 [main] TestAutomationFramework - url opened
+[INFO ] 2025-04-15 22:34:30.415 [main] TestAutomationFramework - ***************TestCase Verify Registration and Login starts*****************
+[INFO ] 2025-04-15 22:35:59.881 [main] TestAutomationFramework - url opened
+[INFO ] 2025-04-15 22:35:59.903 [main] TestAutomationFramework - ***************TestCase Verify Registration and Login starts*****************
+[INFO ] 2025-04-15 22:36:58.810 [main] TestAutomationFramework - url opened
+[INFO ] 2025-04-15 22:36:58.837 [main] TestAutomationFramework - ***************TestCase Verify Registration and Login starts*****************
+[INFO ] 2025-04-15 22:38:15.344 [main] TestAutomationFramework - url opened
+[INFO ] 2025-04-15 22:38:15.375 [main] TestAutomationFramework - ***************TestCase Verify Registration and Login starts*****************
+[INFO ] 2025-04-20 00:56:29.231 [main] TestAutomationFramework - url opened
+[INFO ] 2025-04-20 00:56:29.250 [main] TestAutomationFramework - ***************TestCase Verify Registration and Login starts*****************
+[INFO ] 2025-04-20 00:58:06.606 [main] TestAutomationFramework - url opened
+[INFO ] 2025-04-20 00:58:06.617 [main] TestAutomationFramework - ***************TestCase Verify Registration and Login starts*****************
+[INFO ] 2025-04-20 00:59:19.214 [main] TestAutomationFramework - url opened
+[INFO ] 2025-04-20 00:59:19.227 [main] TestAutomationFramework - ***************TestCase Verify Registration and Login starts*****************
+[INFO ] 2025-04-20 01:07:23.515 [main] TestAutomationFramework - url opened
+[INFO ] 2025-04-20 01:07:23.540 [main] TestAutomationFramework - ***************TestCase Verify Registration and Login starts*****************
+[INFO ] 2025-04-20 02:04:36.278 [main] TestAutomationFramework - url opened
+[INFO ] 2025-04-20 02:04:36.304 [main] TestAutomationFramework - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-04-20 02:04:39.864 [main] TestAutomationFramework - VerifyProductPage - Passed
+[INFO ] 2025-04-20 02:08:21.965 [main] TestAutomationFramework - url opened
+[INFO ] 2025-04-20 02:08:21.997 [main] TestAutomationFramework - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-04-20 02:08:25.585 [main] TestAutomationFramework - VerifyProductPage - Passed
+[INFO ] 2025-04-20 02:08:44.625 [main] TestAutomationFramework - url opened
+[INFO ] 2025-04-20 02:08:44.666 [main] TestAutomationFramework - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-04-20 02:08:48.240 [main] TestAutomationFramework - VerifyProductPage - Passed
+[INFO ] 2025-04-20 02:09:57.082 [main] TestAutomationFramework - url opened
+[INFO ] 2025-04-20 02:09:57.122 [main] TestAutomationFramework - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-04-20 02:10:00.704 [main] TestAutomationFramework - VerifySignOut - Failed
+[INFO ] 2025-04-20 02:20:18.703 [main] TestAutomationFramework - url opened
+[INFO ] 2025-04-20 02:20:18.746 [main] TestAutomationFramework - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-04-20 02:20:22.339 [main] TestAutomationFramework - VerifyProductPage - Passed
+[INFO ] 2025-04-20 02:21:47.508 [main] TestAutomationFramework - url opened
+[INFO ] 2025-04-20 02:21:47.537 [main] TestAutomationFramework - ***************TestCase - skipTest starts*****************
+[INFO ] 2025-04-20 02:21:47.565 [main] TestAutomationFramework - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-04-20 02:21:51.112 [main] TestAutomationFramework - VerifyProductPage - Passed
+[INFO ] 2025-04-20 22:39:00.488 [main] TestAutomationFramework - url opened
+[INFO ] 2025-04-20 22:39:01.207 [main] TestAutomationFramework - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-04-20 22:39:04.634 [main] TestAutomationFramework - VerifyProductPage - Passed
+[INFO ] 2025-04-20 22:39:04.646 [main] TestAutomationFramework - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-04-20 22:41:56.003 [main] TestAutomationFramework - url opened
+[INFO ] 2025-04-20 22:41:56.656 [main] TestAutomationFramework - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-04-20 22:42:00.014 [main] TestAutomationFramework - VerifyProductPage - Passed
+[INFO ] 2025-04-20 22:42:00.456 [main] TestAutomationFramework - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-04-20 22:42:03.735 [main] TestAutomationFramework - VerifyProductPage - Passed
+[INFO ] 2025-04-21 22:06:19.196 [main] TestAutomationFramework - url opened
+[INFO ] 2025-04-21 22:06:19.913 [main] TestAutomationFramework - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-04-21 22:06:23.271 [main] TestAutomationFramework - VerifyProductPage - Passed
+[INFO ] 2025-04-21 22:06:23.720 [main] TestAutomationFramework - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-04-21 22:06:27.007 [main] TestAutomationFramework - VerifyProductPage - Passed
+[INFO ] 2025-04-21 23:05:29.712 [main] TestAutomationFramework - url opened
+[INFO ] 2025-04-21 23:05:30.336 [main] TestAutomationFramework - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-04-21 23:05:33.678 [main] TestAutomationFramework - VerifyProductPage - Passed
+[INFO ] 2025-04-21 23:05:34.120 [main] TestAutomationFramework - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-04-21 23:05:37.403 [main] TestAutomationFramework - VerifyProductPage - Passed
+[INFO ] 2025-04-21 23:13:24.795 [main] TestAutomationFramework - url opened
+[INFO ] 2025-04-21 23:13:25.503 [main] TestAutomationFramework - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-04-21 23:13:28.851 [main] TestAutomationFramework - VerifyProductPage - Passed
+[INFO ] 2025-04-21 23:13:29.296 [main] TestAutomationFramework - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-04-21 23:13:32.565 [main] TestAutomationFramework - VerifyProductPage - Passed
+[INFO ] 2025-04-21 23:13:52.385 [main] TestAutomationFramework - url opened
+[INFO ] 2025-04-21 23:13:53.186 [main] TestAutomationFramework - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-04-21 23:13:56.540 [main] TestAutomationFramework - VerifyProductPage - Passed
+[INFO ] 2025-04-21 23:13:56.983 [main] TestAutomationFramework - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-04-21 23:14:00.267 [main] TestAutomationFramework - VerifyProductPage - Passed
+[INFO ] 2025-04-21 23:21:03.417 [main] TestAutomationFramework - url opened
+[INFO ] 2025-04-21 23:21:04.062 [main] TestAutomationFramework - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-04-21 23:21:07.407 [main] TestAutomationFramework - VerifyProductPage - Passed
+[INFO ] 2025-04-21 23:21:07.850 [main] TestAutomationFramework - ***************TestCase Verify Login starts*****************
+[INFO ] 2025-04-21 23:21:11.125 [main] TestAutomationFramework - VerifyProductPage - Passed
