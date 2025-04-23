@@ -20,3 +20,5 @@ target/
 
 # Ignore Screenshots directory
 /src/test/resources/Screenshots/
+
+*.bat
