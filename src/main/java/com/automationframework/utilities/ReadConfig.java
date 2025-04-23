@@ -7,8 +7,7 @@ import java.util.Properties;
 
 public class ReadConfig {
     Properties properties;
-    String path =  "C:\\Users\\WFCS3529\\IdeaProjects\\TestAutomationFramework\\Configuration\\config.properties";
-
+    String path =  System.getProperty("user.dir")+"\\src\\test\\resources\\config.properties";
     public ReadConfig() throws FileNotFoundException,IOException {
         properties = new Properties();
         FileInputStream fis = new FileInputStream(path);

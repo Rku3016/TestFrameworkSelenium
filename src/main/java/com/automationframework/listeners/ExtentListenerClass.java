@@ -1,10 +1,13 @@
-package com.automationframework.utilities;
+package com.automationframework.listeners;
 
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import com.automationframework.utilities.ReadConfig;
+import com.automationframework.utilities.RetryAnalyzer;
+import org.testng.IAnnotationTransformer;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -16,19 +19,25 @@ import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
+import org.testng.annotations.ITestAnnotation;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
 
 
-public class ExtentListenerClass implements ITestListener{
+public class ExtentListenerClass implements ITestListener, IAnnotationTransformer {
 
     ExtentSparkReporter  htmlReporter;
     ExtentReports reports;
     ExtentTest test;
 
+    public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod) {
+        annotation.setRetryAnalyzer(RetryAnalyzer.class);
+    }
     public void configureReport() throws IOException {
         ReadConfig readConfig = new ReadConfig();
         String timestamp = new SimpleDateFormat("yyyy.mm.dd.hh.mm.ss").format(new Date());
         String reportName = "MyStoreTestReport-" + timestamp + ".html";
-        htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "//Reports//" + reportName);
+        htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "//src//test//resources//Reports//" + reportName);
         reports = new ExtentReports();
         reports.attachReporter(htmlReporter);
 
@@ -46,6 +55,7 @@ public class ExtentListenerClass implements ITestListener{
 
     }
 
+
     //OnStart method is called when any Test starts.
     public void onStart(ITestContext Result)
     {
@@ -55,6 +65,7 @@ public class ExtentListenerClass implements ITestListener{
             throw new RuntimeException(e);
         }
         System.out.println("On Start method invoked....");
+
     }
 
     //onFinish method is called after all Tests are executed
@@ -75,7 +86,7 @@ public class ExtentListenerClass implements ITestListener{
         test = reports.createTest(Result.getName());//create entry in html report
         test.log(Status.FAIL, MarkupHelper.createLabel("Name of the failed test case is: " + Result.getName() ,ExtentColor.RED));
 
-        String screenShotPath = System.getProperty("user.dir") + "\\Screenshots\\" + Result.getName() + ".png";
+        String screenShotPath = System.getProperty("user.dir") + "\\src\\test\\resources\\Screenshots\\" + Result.getName() + ".png";
 
         File screenShotFile = new File(screenShotPath);
 

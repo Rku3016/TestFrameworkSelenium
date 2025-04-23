@@ -1,4 +1,4 @@
-package com.automationframework.pageobject;
+package com.automationframework.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,10 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 
 public class loginPage {
     WebDriver ldriver;
-    public loginPage(WebDriver rdriver){
+    public loginPage(WebDriver rdriver) {
         this.ldriver = rdriver;
         PageFactory.initElements(rdriver, this);
-
     }
 
     @FindBy(id = "user-name")
@@ -28,18 +27,16 @@ public class loginPage {
     @FindBy(id = "logout_sidebar_link")
     WebElement logout;
 
-
-    public void inputUsernameandPass(String user, String pass){
+    public void inputUsernameandPass(String user, String pass) {
         usernameField.sendKeys(user);
         passwordField.sendKeys(pass);
     }
-    public void clickOnSignIn(){
 
+    public void clickOnSignIn() {
         loginBtn.click();
     }
 
-    public void clickOnLogout(){
-
+    public void clickOnLogout() {
         menu.click();
         logout.click();
     }

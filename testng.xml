@@ -2,13 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <listeners>
-        <listener class-name="com.automationframework.utilities.ExtentListenerClass">
+        <listener class-name="com.automationframework.listeners.ExtentListenerClass">
 
         </listener>
     </listeners>
     <test name="Test">
         <classes>
-            <class name="com.automationframework.testcases.TC_LoginPage_datadriven">
+            <class name="com.automationframework.testcases.TC_LoginPage">
             </class>
         </classes>
     </test>
